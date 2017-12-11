@@ -4,7 +4,8 @@ LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
 ENV JAVA_VERSION 8u131
 ENV JAVA_ALPINE_VERSION 8.131.11-r2
 
-RUN apk add --no-cache git openssh subversion mercurial wget curl unzip openjdk8-jre="$JAVA_ALPINE_VERSION" && \
+RUN apk add --no-cache  && \
+RUN apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates openjdk8-jre="$JAVA_ALPINE_VERSION" && \
     rm -rf /var/cache/apk/*
 
 ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk/jre
