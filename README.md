@@ -2,6 +2,8 @@
 
 Jenkins Slave for Python builds. Docker image based on official image for Python distribution.
 
+	https://hub.docker.com/r/jnonino/jenkins-slave-python/
+
 ## Tools Installed ##
 
 - Python
