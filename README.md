@@ -24,7 +24,8 @@ To add custom certificates and root CAs, create a new Dockerfile and import them
 
 	# Trust Root CA
 	COPY Root_CA.crt /tmp
-	RUN cp /tmp/Root_CA.crt /usr/local/share/ca-certificates/ && \
+	RUN keytool -importcert -alias Root_CA -keystore ${JAVA_HOME}/jre/lib/security/cacerts -storepass changeit -file /tmp/Root_CA.crt -noprompt && \
+		cp /tmp/Root_CA.crt /usr/local/share/ca-certificates/ && \
 		chmod 644 /usr/local/share/ca-certificates/Root_CA.crt && \
 		update-ca-certificates
 
