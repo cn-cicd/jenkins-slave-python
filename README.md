@@ -16,7 +16,7 @@ Jenkins Slave for Python builds. Docker image based on official image for Python
 ## Tools Installed ##
 
 - Python
-- Open Java JDK 8
+- Open Java JRE 8
 - Git
 - Subversion
 - Mercurial
