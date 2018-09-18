@@ -1,5 +1,5 @@
 FROM python:alpine
-LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
+LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 ENV JAVA_VERSION 8u131
 ENV JAVA_ALPINE_VERSION 8.131.11-r2
