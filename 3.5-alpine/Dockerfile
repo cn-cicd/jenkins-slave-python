@@ -1,4 +1,4 @@
-FROM python:alpine3.6
+FROM python:3.5-alpine
 LABEL maintainer="Julian Nonino <noninojulian@outlook.com>"
 
 ENV JAVA_VERSION 8u131
