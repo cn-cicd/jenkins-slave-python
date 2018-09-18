@@ -1,8 +1,8 @@
 FROM python:3.5-alpine
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
-ENV JAVA_VERSION 8u131
-ENV JAVA_ALPINE_VERSION 8.131.11-r2
+ENV JAVA_VERSION 8u171
+ENV JAVA_ALPINE_VERSION 8.171.11-r0
 
 RUN apk add --no-cache  && \
     apk add --no-cache git subversion mercurial wget curl unzip openssh ca-certificates procps bash openjdk8-jre="$JAVA_ALPINE_VERSION" && \
