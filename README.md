@@ -4,12 +4,6 @@ Jenkins Slave for Python builds. Docker image based on official image for Python
 
 	https://hub.docker.com/r/jnonino/jenkins-slave-python/
 
-## Docker Image Tags ##
-
--	[`latest` (*latest/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-python/src/master/latest/Dockerfile)
--	[`3.7-alpine` (*3.7-alpine/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-python/src/master/3.7-alpine/Dockerfile)
--	[`2.7-alpine` (*2.7-alpine/Dockerfile*)](https://bitbucket.org/jnonino-devops-cloud/jenkins-slave-python/src/master/2.7-alpine/Dockerfile)
-
 ## Tools Installed ##
 
 - Python
