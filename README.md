@@ -1,4 +1,4 @@
-# Jenkins Slave Python #
+# Jenkins Slave Python [![Docker hub](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-python.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
 
 Jenkins Slave for Python builds. Docker image based on official image for Python distribution.
 
