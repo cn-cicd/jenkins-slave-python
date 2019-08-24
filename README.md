@@ -1,8 +1,16 @@
-# Jenkins Slave Python [![Docker hub](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-python.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
+# Jenkins Slave Python
+
+[![](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-python.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
+[![](hhttps://img.shields.io/docker/build/jnonino/jenkins-slave-python)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
+[![](https://img.shields.io/docker/automated/jnonino/jenkins-slave-python)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
+[![](https://img.shields.io/docker/stars/jnonino/jenkins-slave-python)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
+[![](https://img.shields.io/github/license/jnonino/jenkins-slave-python-docker-image)](https://github.com/jnonino/jenkins-slave-python-docker-image)
+[![](https://img.shields.io/github/issues/jnonino/jenkins-slave-python-docker-image)](https://github.com/jnonino/jenkins-slave-python-docker-image)
+[![](https://img.shields.io/github/issues-closed/jnonino/jenkins-slave-python-docker-image)](https://github.com/jnonino/jenkins-slave-python-docker-image)
+[![](https://img.shields.io/github/languages/code-size/jnonino/jenkins-slave-python-docker-image)](https://github.com/jnonino/jenkins-slave-python-docker-image)
+[![](https://img.shields.io/github/repo-size/jnonino/jenkins-slave-python-docker-image)](https://github.com/jnonino/jenkins-slave-python-docker-image)
 
 Jenkins Slave for Python builds. Docker image based on official image for Python distribution.
-
-	https://hub.docker.com/r/jnonino/jenkins-slave-python/
 
 ## Tools Installed ##
 
