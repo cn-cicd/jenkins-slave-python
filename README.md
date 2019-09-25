@@ -30,7 +30,7 @@ Jenkins Slave for Python builds. Docker image based on official image for Python
 To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
 
 	FROM cnservices/jenkins-slave-python
-	LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
+	LABEL maintainer="CN Services <noninojulian@gmail.com>"
 
 	# Trust Root CA
 	COPY Root_CA.crt /tmp
