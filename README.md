@@ -1,9 +1,9 @@
 # Jenkins Slave Python
 
-[![](https://img.shields.io/docker/pulls/jnonino/jenkins-slave-python.svg)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
-[![](hhttps://img.shields.io/docker/build/jnonino/jenkins-slave-python)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
-[![](https://img.shields.io/docker/automated/jnonino/jenkins-slave-python)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
-[![](https://img.shields.io/docker/stars/jnonino/jenkins-slave-python)](https://hub.docker.com/r/jnonino/jenkins-slave-python/)
+[![](https://img.shields.io/docker/pulls/cnservices/jenkins-slave-python.svg)](https://hub.docker.com/r/cnservices/jenkins-slave-python/)
+[![](hhttps://img.shields.io/docker/build/cnservices/jenkins-slave-python)](https://hub.docker.com/r/cnservices/jenkins-slave-python/)
+[![](https://img.shields.io/docker/automated/cnservices/jenkins-slave-python)](https://hub.docker.com/r/cnservices/jenkins-slave-python/)
+[![](https://img.shields.io/docker/stars/cnservices/jenkins-slave-python)](https://hub.docker.com/r/cnservices/jenkins-slave-python/)
 [![](https://img.shields.io/github/license/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
 [![](https://img.shields.io/github/issues/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
 [![](https://img.shields.io/github/issues-closed/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
@@ -29,7 +29,7 @@ Jenkins Slave for Python builds. Docker image based on official image for Python
 
 To add custom certificates and root CAs, create a new Dockerfile and import them with the following code.
 
-	FROM jnonino/jenkins-slave-python
+	FROM cnservices/jenkins-slave-python
 	LABEL maintainer="Julian Nonino <noninojulian@gmail.com>"
 
 	# Trust Root CA
