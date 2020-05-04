@@ -4,11 +4,11 @@
 [![](hhttps://img.shields.io/docker/build/cnservices/jenkins-slave-python)](https://hub.docker.com/r/cnservices/jenkins-slave-python/)
 [![](https://img.shields.io/docker/automated/cnservices/jenkins-slave-python)](https://hub.docker.com/r/cnservices/jenkins-slave-python/)
 [![](https://img.shields.io/docker/stars/cnservices/jenkins-slave-python)](https://hub.docker.com/r/cnservices/jenkins-slave-python/)
-[![](https://img.shields.io/github/license/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
-[![](https://img.shields.io/github/issues/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
-[![](https://img.shields.io/github/issues-closed/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
-[![](https://img.shields.io/github/languages/code-size/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
-[![](https://img.shields.io/github/repo-size/cn-cicd/jenkins-slave-python)](https://github.com/cn-cicd/jenkins-slave-python)
+[![](https://img.shields.io/github/license/cn-docker/jenkins-slave-python)](https://github.com/cn-docker/jenkins-slave-python)
+[![](https://img.shields.io/github/issues/cn-docker/jenkins-slave-python)](https://github.com/cn-docker/jenkins-slave-python)
+[![](https://img.shields.io/github/issues-closed/cn-docker/jenkins-slave-python)](https://github.com/cn-docker/jenkins-slave-python)
+[![](https://img.shields.io/github/languages/code-size/cn-docker/jenkins-slave-python)](https://github.com/cn-docker/jenkins-slave-python)
+[![](https://img.shields.io/github/repo-size/cn-docker/jenkins-slave-python)](https://github.com/cn-docker/jenkins-slave-python)
 
 Jenkins Slave for Python builds. Docker image based on official image for Python distribution.
 
